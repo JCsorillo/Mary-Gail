@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Mary Gail Valeriano - NISU | CICS</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600&family=Roboto&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+   <!-- Libraries Stylesheet -->
+   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+   <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+
+          <!-- favicons
+    ================================================== -->
+    <link rel="apple-touch-icon" sizes="182x182" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link rel="manifest" href="site.webmanifest">
+    
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+     
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0">
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+                <a href="" class="navbar-brand p-0">
+                    <h1 class="m-0"><i class="fa fa-map-marker-alt me-3"></i>Traveler</h1>
+                    <!-- <img src="img/logo.png" alt="Logo"> -->
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About</a>
+                        <a href="blog.html" class="nav-item nav-link">Blog</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Social</a>
+                            <div class="dropdown-menu m-0">
+                                <a href="https://www.facebook.com/marygail.valeriano.5?mibextid=ZbWKwL" class="dropdown-item">Facebook</a>
+                                <a href="https://www.instagram.com/marygailvaleriano/" class="dropdown-item">Instagram</a>
+                                <a href="https://www.tiktok.com/@marygailvaleria37?_t=8rf97U4BZ4R&_r=1" class="dropdown-item">Tiktok</a>
+                                <a href="https://ph.pinterest.com/marygailvaleriano/" class="dropdown-item">Pinterest</a>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="mailto:marygailvaleriano38@gmail.com" class="btn btn-primary rounded-pill py-2 px-4 ms-lg-4">Mail us</a>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+            <div class="carousel-header">
+                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="1"></li>
+                        <li data-bs-target="#carouselId" data-bs-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img src="img/carousel-2.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Let's Travel The World Together!</h1>
+                                    <p class="mb-5 fs-5">Ready to ditch the routine and explore the globe? Let's pack our bags and create memories that will last a lifetime! 🌎✈️
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#dest">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-1.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">Find Your Perfect Tour At Travel</h1>
+                                    <p class="mb-5 fs-5">The world is calling, and I'm answering! Join me on a journey filled with adventure, discovery, and unforgettable experiences. 🗺️
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#dest">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/carousel-3.jpg" class="img-fluid" alt="Image">
+                            <div class="carousel-caption">
+                                <div class="p-3" style="max-width: 900px;">
+                                    <h4 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">Explore The World</h4>
+                                    <h1 class="display-2 text-capitalize text-white mb-4">You Like To Go?</h1>
+                                    <p class="mb-5 fs-5">Imagine breathtaking landscapes, vibrant cultures, and incredible food. Let's travel the world together and make it a reality! ✨ 
+                                    </p>
+                                    <div class="d-flex align-items-center justify-content-center">
+                                        <a class="btn-hover-bg btn btn-primary rounded-pill text-white py-3 px-5" href="#dest">Discover Now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                        <span class="carousel-control-next-icon btn bg-primary" aria-hidden="false"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+        <!-- About Start -->
+        <div class="container-fluid about py-5">
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-5">
+                        <div class="h-100" style="border: 50px solid; border-color: transparent #13357B transparent #13357B;">
+                            <img src="img/about-img.jpg" class="img-fluid w-100 h-100" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-7" style="background: linear-gradient(rgba(255, 255, 255, .8), rgba(255, 255, 255, .8)), url(img/about-img-1.png);">
+                        <h5 class="section-about-title pe-3">About Us</h5>
+                        <h1 class="mb-4">Welcome to <span class="text-primary">Traveler</span></h1>
+                        <p class="mb-4">Hey everyone! I'm Mary Gail Valeriano, a student at NISU's College of Information and Computing Studies. While I'm busy studying, I also have a huge passion for exploring the world! That's why I created Traveler, a website dedicated to sharing my adventures and inspiring others to travel.</p>
+                        <p class="mb-4">On Traveler, you'll find tons of information about popular destinations like the Philippines, Korea, Japan, the USA, and France. I'll share my personal experiences, tips for planning your trips, and recommendations for the best things to see and do in each place.</p>
+                        <p class="mb-4">I'm a big fan of exploring new places, trying new foods, and experiencing different cultures. I love sharing my travel stories and helping others plan their own adventures.</p>
+                        <p class="mb-4">So, if you're looking for a travel website that's fun, informative, and filled with my personal experiences, then check out Traveler! Let's explore the world together!</p>
+                        <div class="row gy-2 gx-4 mb-4"><h5>Hobies</h5>
+                            <div class="col-sm-6"> 
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i> Watching anime & K-drama</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Travel with fam & friends</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Playing sport like table tennis, basketball, volleyball and Arnis</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Dancing</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Eatings</p>
+                            </div>
+                            <div class="col-sm-6">
+                                <p class="mb-0"><i class="fa fa-arrow-right text-primary me-2"></i>Reading manga</p>
+                            </div>
+                        </div>
+                        <a class="btn btn-primary rounded-pill py-3 px-5 mt-2" href="about.html">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+
+        <!-- Destination Start -->
+        <div class="container-fluid destination py-5" id="dest">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3">Destination</h5>
+                    <h1 class="mb-0">Popular Destination</h1>
+                </div>
+                <div class="tab-class text-center">
+                    <ul class="nav nav-pills d-inline-flex justify-content-center mb-5">
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill active" data-bs-toggle="pill" href="#tab-1">
+                                <span class="text-dark" style="width: 150px;">All</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex py-2 mx-3 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-2">
+                                <span class="text-dark" style="width: 150px;">USA</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-3">
+                                <span class="text-dark" style="width: 150px;">France</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-4">
+                                <span class="text-dark" style="width: 150px;">Philippines</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-5">
+                                <span class="text-dark" style="width: 150px;">Japan</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="d-flex mx-3 py-2 border border-primary bg-light rounded-pill" data-bs-toggle="pill" href="#tab-6">
+                                <span class="text-dark" style="width: 150px;">South Korea</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="tab-content">
+                        <div id="tab-1" class="tab-pane fade show p-0 active">
+                            <div class="row g-4">
+                                <div class="col-xl-8">
+                                    <div class="row g-4">
+                                        <div class="col-lg-6">
+                                            <div class="destination-img">
+                                                <img class="img-fluid rounded w-100" src="img/destination-1.jpg" alt="">
+                                                <div class="destination-overlay p-4">
+                                                    <h4 class="text-white mb-2 mt-3">New York</h4>
+                                                </div>
+                                                <div class="search-icon">
+                                                    <a href="img/destination-1.jpg" data-lightbox="destination-1"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="destination-img">
+                                                <img class="img-fluid rounded w-100" src="img/destination-2.jpg" alt="">
+                                                <div class="destination-overlay p-4">
+                                                    <h4 class="text-white mb-2 mt-3">California</h4>
+                                                </div>
+                                                <div class="search-icon">
+                                                    <a href="img/destination-2.jpg" data-lightbox="destination-2"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="destination-img">
+                                                <img class="img-fluid rounded w-100" src="img/destination-7.jpg" alt="">
+                                                <div class="destination-overlay p-4">
+                                                    <h4 class="text-white mb-2 mt-3">France</h4>
+                                                </div>
+                                                <div class="search-icon">
+                                                    <a href="img/destination-7.jpg" data-lightbox="destination-7"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="destination-img">
+                                                <img class="img-fluid rounded w-100" src="img/destination-8.jpg" alt="">
+                                                <div class="destination-overlay p-4">
+                                                    <h4 class="text-white mb-2 mt-3">Japan</h4>
+                                                </div>
+                                                <div class="search-icon">
+                                                    <a href="img/destination-8.jpg" data-lightbox="destination-8"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-4">
+                                    <div class="destination-img h-100">
+                                        <img class="img-fluid rounded w-100 h-100" src="img/destination-9.jpg" style="object-fit: cover; min-height: 300px;" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">South Korea</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-9.jpg" data-lightbox="destination-4"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-4.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Philippines</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-4.jpg" data-lightbox="destination-4"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Philippines</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Philippines</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-2" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-1.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">New York</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-2.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">California</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-3" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-7.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Paris</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-3.png" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Cathédrale Notre-Dame de Paris</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-4" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-10.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">White Beach</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-11.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Puerto Princesa Subterranean River National Park</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-5.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Chocolate Hills</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-6.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Rice Terraces</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-5" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-12.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Japan</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-13.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">Japan</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="tab-6" class="tab-pane fade show p-0">
+                            <div class="row g-4">
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-14.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">South Korea</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-5.jpg" data-lightbox="destination-5"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="destination-img">
+                                        <img class="img-fluid rounded w-100" src="img/destination-15.jpg" alt="">
+                                        <div class="destination-overlay p-4">
+                                            <h4 class="text-white mb-2 mt-3">South Korea</h4>
+                                        </div>
+                                        <div class="search-icon">
+                                            <a href="img/destination-6.jpg" data-lightbox="destination-6"><i class="fa fa-plus-square fa-1x btn btn-light btn-lg-square text-primary"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Destination End -->
+
+
+        <!-- Blog Start -->
+        <div class="container-fluid blog py-5">
+            <div class="container py-5">
+                <div class="mx-auto text-center mb-5" style="max-width: 900px;">
+                    <h5 class="section-title px-3">Recommended Blogs</h5>
+                    <h1 class="mb-4">Popular Travel Blogs</h1>
+                    <p class="mb-0">There's a whole world out there waiting to be discovered. Let's explore it together! Pack your bags, grab your sense of adventure, and let's see where the road takes us.
+                    </p>
+                </div>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/blog-1.jpg" alt="Image">
+                                    <div class="blog-icon">
+                                        <a href="https://www.wandererscompass.com/?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn7tztBuZ6i0tnWd2ctnk48ES8rSTT88eSQf8Xr811ThazAthzNBD5kaAvEJEALw_wcB" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <p class="mb-3">Posted By: Wanderers Compass </p>
+                                <a href="https://www.wandererscompass.com/?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn7tztBuZ6i0tnWd2ctnk48ES8rSTT88eSQf8Xr811ThazAthzNBD5kaAvEJEALw_wcB" class="h4">A blog for Independent Traveler</a>
+                                <p class="my-3">There is a beautiful, fascinating world out there awaiting our exploration</p>
+                                <a href="https://www.wandererscompass.com/?gad_source=1&gclid=Cj0KCQiAuou6BhDhARIsAIfgrn7tztBuZ6i0tnWd2ctnk48ES8rSTT88eSQf8Xr811ThazAthzNBD5kaAvEJEALw_wcB" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/blog-2.jpg" alt="Image">
+                                    <div class="blog-icon">
+                                        <a href="https://theworldtravelguy.com" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <p class="mb-3">Posted By: David Leiter </p>
+                                <a href="https://theworldtravelguy.com" class="h4">The World Travel Guy</a>
+                                <p class="my-3">All of the writing and pictures on this site come from my own personal experience.</p>
+                                <a href="https://theworldtravelguy.com" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="blog-item">
+                            <div class="blog-img">
+                                <div class="blog-img-inner">
+                                    <img class="img-fluid w-100 rounded-top" src="img/blog-3.jpg" alt="Image">
+                                    <div class="blog-icon">
+                                        <a href="https://www.nomadicmatt.com/travel-blogs/my-current-list-of-favorite-blogs/" class="my-auto"><i class="fas fa-link fa-2x text-white"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-content border border-top-0 rounded-bottom p-4">
+                                <p class="mb-3">Posted By: Nomadic Matt </p>
+                                <a href="https://www.nomadicmatt.com/travel-blogs/my-current-list-of-favorite-blogs/" class="h4">List of Favorite Travel Blogs</a>
+                                <p class="my-3">I work hard to provide excellent practical travel advice to help you travel better</p>
+                                <a href="https://www.nomadicmatt.com/travel-blogs/my-current-list-of-favorite-blogs/" class="btn btn-primary rounded-pill py-2 px-4">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d52958571.412790604!2d60.505362510601316!3d35.88981799767761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1732453562399!5m2!1sen!2sph" width="100%" height="450" style="border:5;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright text-body py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-end mb-md-0">
+                        <i class="fas fa-copyright me-2"></i><a class="text-white" href="index.html">Mary Gail Valeriano - NISU | CICS</a>, All right reserved.
+                    </div>
+                    <div class="col-md-6 text-center text-md-start">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="text-white" href="https://htmlcodex.com">HTML Codex</a> Distributed By <a href="https://themewagon.com">ThemeWagon</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-primary-outline-0 btn-md-square back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>

@@ -1,0 +1,5 @@
+User -agent: Googlebot
+Disallow: /404.html
+Allow: /
+
+Sitemap: https://marygailvalerianonisucics.site/sitemap.xml
