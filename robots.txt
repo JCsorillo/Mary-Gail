@@ -1,6 +1,6 @@
 User -agent: Googlebot
 Allow: /
 
-Disallow: /404.html
+Disallow: /
 
 Sitemap: https://marygailvalerianonisucics.site/sitemap.xml
